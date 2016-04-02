@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-for (my $i=0; $i < 6000; $i++) {
+for (my $i=0; $i < 7000; $i++) {
   if ($i % 2) {
     unlink "file.txt";
     qx{echo "1" > file.txt};
